@@ -69,6 +69,10 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+# Ignore all notebooks in the notebooks directory
+notebooks/
+# But don't ignore README files in the notebooks directory
+!notebooks/README.md
 
 # IPython
 profile_default/
